@@ -25,7 +25,6 @@ class Mill:
                     print(f"{item} is {values['mrp']} rupees only.")
                     order.append((item, values["mrp"]))
                     time.append(values["time"])
-                    t.sleep(values["time"])
                else:
                     print(f"{item} is not available")
 
